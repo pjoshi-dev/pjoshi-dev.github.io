@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+  <defs>
+    <style>
+      .wand-stroke { stroke: #0099ff; stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .wand-fill { fill: #00d9ff; }
+      .sparkle { fill: #0099ff; opacity: 0.8; }
+    </style>
+  </defs>
+
+  <!-- Wand stick -->
+  <line x1="4" y1="20" x2="18" y2="6" class="wand-stroke"/>
+
+  <!-- Wand tip -->
+  <circle cx="18" cy="6" r="2" class="wand-fill"/>
+
+  <!-- Sparkles around wand -->
+  <circle cx="6" cy="18" r="1.5" class="sparkle"/>
+  <circle cx="10" cy="14" r="1" class="sparkle"/>
+  <circle cx="14" cy="10" r="1.5" class="sparkle"/>
+  <circle cx="20" cy="4" r="1" class="sparkle"/>
+
+  <!-- Additional sparkle marks -->
+  <path d="M 7 16 L 7 18 M 6 17 L 8 17" class="wand-stroke"/>
+  <path d="M 11 12 L 11 14 M 10 13 L 12 13" class="wand-stroke"/>
+  <path d="M 15 8 L 15 10 M 14 9 L 16 9" class="wand-stroke"/>
+  <path d="M 21 2 L 21 4 M 20 3 L 22 3" class="wand-stroke"/>
+</svg>
